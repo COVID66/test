@@ -13,6 +13,7 @@ public class ArrayQueue<T> {
         sequ =(T[])new Object[10];
         this.capacity=10;
         Len=1;
+        Len=2;
     }
 
     public ArrayQueue(int MaxSize){
