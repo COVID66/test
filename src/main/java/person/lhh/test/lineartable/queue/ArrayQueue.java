@@ -12,6 +12,7 @@ public class ArrayQueue<T> {
     public ArrayQueue() throws Exception {
         sequ =(T[])new Object[10];
         this.capacity=10;
+        Len=1;
     }
 
     public ArrayQueue(int MaxSize){
